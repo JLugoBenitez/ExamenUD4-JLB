@@ -1,0 +1,43 @@
+[
+    {
+        "alumno": {
+            "nombre": "Pepe",
+            "apellidos": "Martin Dominguez",
+            "fecha_nac": "2025-12-04",
+            "email": "hola@gmail.com",
+            "nota_final": 10
+        }
+    },
+    {
+        "convenio": {
+            "fecha_ini": "2025-12-05",
+            "fecha_fin": "2025-12-06",
+            "num_horas": 240,
+            "alumno": {
+                "nombre": "Pepe",
+                "apellidos": "Martin Dominguez",
+                "fecha_nac": "2025-12-04",
+                "email": "hola@gmail.com",
+                "nota_final": 10
+            }
+        }
+    },
+    {
+        "empresa":{
+            "nombre": "Juan SL",
+            "num_empleados":10,
+            "convenio": {
+            "fecha_ini": "2025-12-05",
+            "fecha_fin": "2025-12-06",
+            "num_horas": 240,
+            "alumno": {
+                "nombre": "Pepe",
+                "apellidos": "Martin Dominguez",
+                "fecha_nac": "2025-12-04",
+                "email": "hola@gmail.com",
+                "nota_final": 10
+            }
+        }
+        }
+    }
+]
