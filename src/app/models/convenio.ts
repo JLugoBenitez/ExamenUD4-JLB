@@ -22,9 +22,17 @@ export class Convenio {
     get fecha_fin(): Date { return this._fecha_fin; }
     set fecha_fin(value: Date) { this._fecha_fin = value; }
 
-    //public num_sesiones(): number {
-    
-    //}
+    public num_sesiones(): number {
+    let contador = 0;
+    while(this.fecha_ini<=this.fecha_fin){
+        if(!es_finde(this.fecha_ini)){
+            contador++;
+        }
+        let nuevaFecha =new Date(this.fecha_ini);
+        nuevaFecha.setDate(nuevaFecha.getDate()+1);
+    }
+    return contador;
+    }
 }
     //Funcion es_finde
     function es_finde(fecha: Date): boolean {
